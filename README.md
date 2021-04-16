@@ -1,2 +1,8 @@
 # our-google-map
-A replica of google maps 
+
+Participants: Abdi Allen - James Gordon
+
+Overview: We will create a replica of google maps utilizing an API, HTML, CSS, JavaScript!
+ 
+
+
