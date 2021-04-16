@@ -2,7 +2,7 @@
 
 Participants: Abdi Allen - James Gordon
 
-Overview: We will create a replica of google maps utilizing an API, HTML, CSS, JavaScript!
+Overview: We will create a replica of google maps utilizing an API, HTML, CSS, and JavaScript!
  
 
 
