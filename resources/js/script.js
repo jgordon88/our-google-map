@@ -26,5 +26,5 @@ function successLocation(position) {
 }
 
 function errorLocation() {
-  setupMap([-77.03, 38.89])
+  setupMap([--77.0388256, 38.8999965])
 }
