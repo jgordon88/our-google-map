@@ -1,10 +1,10 @@
 const MAPBOX_ACCESS_TOKEN ='pk.eyJ1IjoiamdvcmRvbjg4IiwiYSI6ImNrbm1henNqOTBvejcyb21vcjRxYm9zZWwifQ.ESrdn-WL_FR6BQSEcDokUg' 
 
-var map = new mapboxgl.Map({
-  accessToken: MAPBOX_ACCESS_TOKEN,
-  container: "map",
-  style: "mapbox://styles/mapbox/streets-v11"
-  })
+// var map = new mapboxgl.Map({
+//   accessToken: MAPBOX_ACCESS_TOKEN,
+//   container: "map",
+//   style: "mapbox://styles/mapbox/streets-v11"
+//   })
 
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
   enableHighAccuracy: true
@@ -18,11 +18,17 @@ function setupMap(centerPosition){
     center: centerPosition,
     zoom: 15
   })
-}
+
 
 // Add zoom and rotation controls to the map.
-const navigationControls = new mapboxgl.NavigationControl();
-map.addControl(navigationControls)
+const navigationControls = new mapboxgl.NavigationControl()
+map.addControl(navigationControls);
+
+const directionControls = new MapboxDirections({
+  accessToken: MAPBOX_ACCESS_TOKEN
+})
+map.addControl(directionControls, "top-left")
+}
 
 function successLocation(position) {
   setupMap([position.coords.longitude, position.coords.latitude])
