@@ -20,7 +20,7 @@ function setupMap(centerPosition){
   })
 }
 
-const navigationControls = new mapbox.gl.NavigationControl(); map.addControl(navigationControls)
+const navigationControls = new mapboxgl.NavigationControl(); map.addControl(navigationControls)
 
 function successLocation(position) {
   setupMap([position.coords.longitude, position.coords.latitude])
