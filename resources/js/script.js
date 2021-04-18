@@ -20,7 +20,9 @@ function setupMap(centerPosition){
   })
 }
 
-const navigationControls = new mapboxgl.NavigationControl(); map.addControl(navigationControls)
+// Add zoom and rotation controls to the map.
+const navigationControls = new mapboxgl.NavigationControl();
+map.addControl(navigationControls)
 
 function successLocation(position) {
   setupMap([position.coords.longitude, position.coords.latitude])
