@@ -7,8 +7,7 @@ Overview: We will create a replica of google maps utilizing an API, HTML, CSS, a
 Default API Access Token: pk.eyJ1IjoiamdvcmRvbjg4IiwiYSI6ImNrbm1henNqOTBvejcyb21vcjRxYm9zZWwifQ.ESrdn-WL_FR6BQSEcDokUg
 
 Things to Come:
-1.Map Markers
-2.Locate The User Feature
-3.Code Comments (Project Explanation)  
-4.Map Styling
-5.Possible 3d Building Effects \*
+1.Locate The User Feature
+2.Code Comments (Project Explanation)  
+3.Map Styling
+4.Possible 3d Building Effects
