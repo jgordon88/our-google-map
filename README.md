@@ -9,8 +9,8 @@ Default API Access Token: pk.eyJ1IjoiamdvcmRvbjg4IiwiYSI6ImNrbm1henNqOTBvejcyb21
 
 
 Things to Come:
--Code Comments (Project Explanation)  
--Map Markers 
--Locate The User Feature
--Map Styling 
--Possible 3d Building Effects *
+1.Map Markers 
+2.Locate The User Feature
+3Code Comments (Project Explanation)  
+4.Map Styling 
+5.Possible 3d Building Effects *
