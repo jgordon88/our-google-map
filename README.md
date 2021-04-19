@@ -4,7 +4,7 @@ Participants: Abdi Allen - James Gordon
 
 Overview: We will create a replica of google maps utilizing an API, HTML, CSS, and JavaScript!
 
-Default API Access Token: pk.eyJ1IjoiamdvcmRvbjg4IiwiYSI6ImNrbm1henNqOTBvejcyb21vcjRxYm9zZWwifQ.ESrdn-WL_FR6BQSEcDokUg
+Default API Access Token: pk.eyJ1IjoiYWJkaWFkZW4iLCJhIjoiY2tubWF4eHRwMG9wbDJ2cDhqZnJha3lwcSJ9.3j5-R7CM8iTA6NbMMn2i7w
 
 Things to Come:
 
