@@ -30,6 +30,7 @@ const directionControls = new MapboxDirections({
 map.addControl(directionControls, "top-left")
 }
 
+
 function successLocation(position) {
   setupMap([position.coords.longitude, position.coords.latitude])
   console.log(position)
