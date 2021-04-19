@@ -1,4 +1,4 @@
-const MAPBOX_ACCESS_TOKEN ='pk.eyJ1IjoiamdvcmRvbjg4IiwiYSI6ImNrbm1henNqOTBvejcyb21vcjRxYm9zZWwifQ.ESrdn-WL_FR6BQSEcDokUg' 
+const MAPBOX_ACCESS_TOKEN ='pk.eyJ1IjoiYWJkaWFkZW4iLCJhIjoiY2tubWF4eHRwMG9wbDJ2cDhqZnJha3lwcSJ9.3j5-R7CM8iTA6NbMMn2i7w' 
 
 // var map = new mapboxgl.Map({
 //   accessToken: MAPBOX_ACCESS_TOKEN,
@@ -14,7 +14,7 @@ function setupMap(centerPosition){
   const map = new mapboxgl.Map({
     accessToken: MAPBOX_ACCESS_TOKEN,
     container: "map",
-    style: "mapbox://styles/mapbox/streets-v11",
+    style: "mapbox://styles/abdiaden/cknowan3g0o0017qpaoac6e0b",
     center: centerPosition,
     zoom: 15
   })
