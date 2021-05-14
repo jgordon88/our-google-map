@@ -1,10 +1,7 @@
+//====================MAP=================
+
 const MAPBOX_ACCESS_TOKEN ='pk.eyJ1IjoiYWJkaWFkZW4iLCJhIjoiY2tubWF4eHRwMG9wbDJ2cDhqZnJha3lwcSJ9.3j5-R7CM8iTA6NbMMn2i7w' 
 
-// var map = new mapboxgl.Map({
-//   accessToken: MAPBOX_ACCESS_TOKEN,
-//   container: "map",
-//   style: "mapbox://styles/mapbox/streets-v11"
-//   })
 
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
   enableHighAccuracy: true
@@ -39,7 +36,8 @@ function successLocation(position) {
 function errorLocation() {
   setupMap([-77.0388256, 38.8999965])
 }
-// =================================
+// =============Trip Planner================
+
 
 // 1. Select all elements
 const form = document.querySelector("#new-item-form")
