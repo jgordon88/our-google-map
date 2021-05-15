@@ -1,12 +1,14 @@
-//====================MAP=================
-
+//====================MAP================
+// API Access Token
 const MAPBOX_ACCESS_TOKEN ='pk.eyJ1IjoiYWJkaWFkZW4iLCJhIjoiY2tubWF4eHRwMG9wbDJ2cDhqZnJha3lwcSJ9.3j5-R7CM8iTA6NbMMn2i7w' 
 
-
+// GeoLocation
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
   enableHighAccuracy: true
 })
 
+
+// Zoom and rotation controls
 function setupMap(centerPosition){
   const map = new mapboxgl.Map({
     accessToken: MAPBOX_ACCESS_TOKEN,
@@ -17,7 +19,7 @@ function setupMap(centerPosition){
   })
 
 
-// Add zoom and rotation controls to the map.
+
 const navigationControls = new mapboxgl.NavigationControl()
 map.addControl(navigationControls);
 
@@ -28,6 +30,7 @@ map.addControl(directionControls, "top-left")
 }
 
 
+// User Location/Default loaction
 function successLocation(position) {
   setupMap([position.coords.longitude, position.coords.latitude])
   console.log(position)
@@ -44,22 +47,22 @@ const form = document.querySelector("#new-item-form")
 const list = document.querySelector("#list")
 const input = document.querySelector("#item-input")
 
-// 2. When I submit the form add a new element
+// 2. Submit form add new element
 form.addEventListener("submit", e => {
   e.preventDefault()
 
-  // 1. Create a new item
+  // 1. Create new item
   const item = document.createElement("div")
   item.innerText = input.value
   item.classList.add("list-item")
 
-  // 2. Add that item to the list
+  // 2. Add item to list
   list.appendChild(item)
 
   // 3. Clear input
   input.value = ""
 
-  // 4. Setup event listener to delete item when clicked
+  // 4. Setup event listener/delete item when clicked
   item.addEventListener("click", () => {
     item.remove()
   })

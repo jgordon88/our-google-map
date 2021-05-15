@@ -1,49 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+/*Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 body {
-  background-color:rgb(250, 245, 245);
-
+  background-color: rgb(250, 245, 245);
 }
 
+/* Map Sizing */
 #map {
   height: 75vh;
   width: 100vw;
-  border-bottom:outset ;
+  border-bottom: outset;
 }
 /* ================================ */
+
+/* Travel Planner */
 .list-item {
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
   cursor: pointer;
   width: min-content;
 }
 
+/* Pseudo Element */
 .list-item:hover {
   color: red;
   text-decoration: line-through;
-} 
+}
 
-.list-item, #new-item-form{
+.list-item,
+#new-item-form {
   padding: 1% 0% 0% 3%;
 }
 
-.input{
+.input {
   outline: none;
-  background-color:rgb(250, 245, 245);
+  background-color: rgb(250, 245, 245);
 
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
   border-style: none none solid none;
-
 }
-#btn{
-border-radius: 15%;
-background-color: hsl(253, 39%, 95%);
-font-family: 'Patrick Hand', cursive;
+#btn {
+  border-radius: 15%;
+  background-color: hsl(253, 39%, 95%);
+  font-family: "Patrick Hand", cursive;
 
-
+  /* Pseudo Element */
 }
-#btn:hover, #btn:focus {
+#btn:hover,
+#btn:focus {
   background-color: hsl(270, 2%, 53%);
   box-shadow: 0 0 5px 0 hsl(270, 18%, 42%);
 }
-.new-item{
-margin-top: 2%;
+.new-item {
+  margin-top: 2%;
 }
