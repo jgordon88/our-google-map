@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--API JS Link-->
   <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+  <!-- API CSS Link -->
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="resources/css/styles.css">
   <script defer src="resources/js/script.js"></script>
@@ -19,13 +21,17 @@
 </head>
 
 <body>
+  <!-- Map Div -->
   <div id="map"></div>
 
+  <!-- Travel Planner -->
   <form class="new-item" id="new-item-form">
     <label for="item-input"></label>
     <input class="input" type="text" id="item-input" placeholder="Places to visit" required>
     <button id="btn" type="submit">Add Me</button>
   </form>
+
+  <!--New List Item Container  -->
   <div id="list">
 
   </div>
