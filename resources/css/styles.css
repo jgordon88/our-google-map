@@ -33,7 +33,6 @@ body {
 .input {
   outline: none;
   background-color: rgb(250, 245, 245);
-
   font-family: "Patrick Hand", cursive;
   border-style: none none solid none;
 }
